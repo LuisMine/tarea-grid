@@ -1,0 +1,44 @@
+.padre
+{
+    background-color: aquamarine;
+    display: grid; /*trabajar en varias dimensiones*/
+    grid-template-columns: 50% 20% auto auto; /*cuando estemos en la caja padre*/
+    grid-template-rows: 250px 100px auto;
+    justify-content: space-between;
+   /* align-items: center;   */
+}
+
+.hijo
+{
+    background-color: goldenrod;
+    border-style: solid;
+    border-color: dimgrey;
+    font-size: 50px;
+    /*display: inline-block; poner en linea*/
+}
+.hijo1
+{
+    background-color: chartreuse;
+    border-style: solid;
+    border-color: dimgrey;
+    font-size: 50px;
+    grid-column: 1/5;
+}
+
+.hijo2
+{
+    background-color: brown;
+    border-style: solid;
+    border-color: dimgrey;
+    font-size: 50px;
+    grid-column: 1/4;
+}
+
+.hijo4
+{
+    background-color: blueviolet;
+    border-style: solid;
+    border-color: dimgrey;
+    font-size: 50px;
+    grid-row: 3/5;
+}
